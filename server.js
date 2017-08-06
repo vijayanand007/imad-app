@@ -12,7 +12,7 @@ app.get('/article-one', function (req, res) {
    res.sendFIle(path.join(__dirname, 'ui', 'article-one.html')); 
 });
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  res.send('article one will be servered here in a min');
 });
 
 app.get('/ui/madi.png', function (req, res) {
